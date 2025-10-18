@@ -19,15 +19,19 @@ import {
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 
-// Fix for default marker icon
-const icon = L.icon({
-  iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-  iconRetinaUrl:
-    'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
-  shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-})
+// Fix for default marker icon - only initialize on client
+let icon: L.Icon | undefined
+
+if (typeof window !== 'undefined') {
+  icon = L.icon({
+    iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+    iconRetinaUrl:
+      'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+  })
+}
 
 interface Umkm {
   id: number
@@ -101,7 +105,7 @@ export function UmkmDetailClient({ umkm }: { umkm: Umkm }) {
   }
 
   const handleShare = async () => {
-    if (navigator.share) {
+    if (typeof window !== 'undefined' && navigator.share) {
       try {
         await navigator.share({
           title: umkm.nama,
@@ -323,7 +327,7 @@ export function UmkmDetailClient({ umkm }: { umkm: Umkm }) {
                   />
                   <Marker
                     position={[umkm.lokasi.lat, umkm.lokasi.lng]}
-                    icon={icon}
+                    icon={icon!}
                   >
                     <Popup>
                       <div className="p-2">

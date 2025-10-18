@@ -22,12 +22,8 @@ async function getUmkmData(): Promise<Umkm[]> {
   return JSON.parse(fileContents)
 }
 
-export async function generateStaticParams() {
-  const umkmList = await getUmkmData()
-  return umkmList.map((umkm) => ({
-    id: umkm.id.toString(),
-  }))
-}
+// Disable static generation for this page
+export const dynamic = 'force-dynamic'
 
 export default async function UmkmDetailPage({
   params,
