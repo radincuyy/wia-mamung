@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nama": "Warung Kopi Jaya",
+    "deskripsi": "Warung kopi tradisional dengan biji kopi lokal pilihan.",
+    "kategori": "Kuliner",
+    "alamatLengkap": "Jl. Merdeka No. 1, Jakarta",
+    "foto": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+    "lokasi": {
+      "lat": -6.279051038301994, 
+      "lng": 107.08484016161235
+    }
+  },
+  {
+    "id": 2,
+    "nama": "Batik Cemerlang",
+    "deskripsi": "Menjual batik tulis dan cap asli Pekalongan.",
+    "kategori": "Fashion",
+    "alamatLengkap": "Jl. Sudirman No. 2, Jakarta",
+    "foto": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=800&q=80",
+    "lokasi": {
+      "lat": -6.1751,
+      "lng": 106.865
+    }
+  },
+  {
+    "id": 3,
+    "nama": "Kerajinan Bambu Sejahtera",
+    "deskripsi": "Produk kerajinan tangan dari bambu berkualitas tinggi.",
+    "kategori": "Kerajinan",
+    "alamatLengkap": "Jl. Thamrin No. 3, Jakarta",
+    "foto": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=800&q=80",
+    "lokasi": {
+      "lat": -6.1944,
+      "lng": 106.8229
+    }
+  },
+  {
+    "id": 4,
+    "nama": "Bakso Pak Kumis",
+    "deskripsi": "Bakso sapi asli dengan kuah kaldu segar dan bumbu rahasia.",
+    "kategori": "Kuliner",
+    "alamatLengkap": "Jl. Gatot Subroto No. 45, Jakarta",
+    "foto": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+    "lokasi": {
+      "lat": -6.2297,
+      "lng": 106.8253
+    }
+  },
+  {
+    "id": 5,
+    "nama": "Toko Sepatu Handmade Jaya",
+    "deskripsi": "Sepatu kulit handmade dengan desain custom sesuai keinginan.",
+    "kategori": "Fashion",
+    "alamatLengkap": "Jl. Cikini Raya No. 12, Jakarta",
+    "foto": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800&q=80",
+    "lokasi": {
+      "lat": -6.1867,
+      "lng": 106.8412
+    }
+  },
+  {
+    "id": 6,
+    "nama": "Anyaman Rotan Indah",
+    "deskripsi": "Furniture dan dekorasi rumah dari rotan berkualitas premium.",
+    "kategori": "Kerajinan",
+    "alamatLengkap": "Jl. Tebet Barat No. 8, Jakarta",
+    "foto": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80",
+    "lokasi": {
+      "lat": -6.2383,
+      "lng": 106.8533
+    }
+  },
+  {
+    "id": 7,
+    "nama": "Sate Ayam Madura Pak Haji",
+    "deskripsi": "Sate ayam bumbu kacang khas Madura yang legendaris.",
+    "kategori": "Kuliner",
+    "alamatLengkap": "Jl. Kemang Raya No. 23, Jakarta",
+    "foto": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80",
+    "lokasi": {
+      "lat": -6.2615,
+      "lng": 106.8166
+    }
+  },
+  {
+    "id": 8,
+    "nama": "Tas Kulit Berkah",
+    "deskripsi": "Tas dan dompet kulit asli dengan harga terjangkau.",
+    "kategori": "Fashion",
+    "alamatLengkap": "Jl. Fatmawati No. 67, Jakarta",
+    "foto": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80",
+    "lokasi": {
+      "lat": -6.2892,
+      "lng": 106.7978
+    }
+  },
+  {
+    "id": 9,
+    "nama": "Keramik Seni Nusantara",
+    "deskripsi": "Keramik hias dan peralatan makan dengan motif tradisional.",
+    "kategori": "Kerajinan",
+    "alamatLengkap": "Jl. Pejaten Raya No. 34, Jakarta",
+    "foto": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=800&q=80",
+    "lokasi": {
+      "lat": -6.2756,
+      "lng": 106.8456
+    }
+  },
+  {
+    "id": 10,
+    "nama": "Nasi Goreng Kambing Bu Ita",
+    "deskripsi": "Nasi goreng kambing dengan bumbu spesial dan porsi jumbo.",
+    "kategori": "Kuliner",
+    "alamatLengkap": "Jl. Pancoran No. 56, Jakarta",
+    "foto": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&q=80",
+    "lokasi": {
+      "lat": -6.2533,
+      "lng": 106.8467
+    }
+  }
+]
